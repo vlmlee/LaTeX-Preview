@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: block;
+    height: 85px;
+    background-color: lightblue;
+    border-bottom: 2px solid #eee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+pre,
+textarea {
+    width: 66.66%;
+    height: 200px;
+    color: #222;
+    font-family: 'Fira Mono';
+    font-size: 14px;
+    overflow: hidden;
+}
+
+textarea {
+    margin-top: 30px;
+    padding: 25px 25px 15px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+pre {
+    background-color: #f8f8f8;
+    margin-top: 30px;
+    padding: 40px 25px 0;
+    text-align: center;
+}
+
+.error {
+    margin-top: 30px;
+    color: red;
+    text-align: center;
+}
+
+.logo {
+    height: 50px;
+    margin: 20px 15% 0;
+}
+
+.github {
+    display: inline-block;
+    height: 13px;
+}
+
+.button-container {
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #bbb;
+    margin: 0 30px;
+    background-color: #18af90;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    opacity: .9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.katex-link {
+    color: darkcyan;
+}
+
+.katex-link:hover {
+    color: #00C5CD;
+}
+
+.project-link {
+    display: inline-block;
+    float: right;
+    margin: 20px 15% 0;
+    padding: 12px 18px;
+    border: 1px solid #bbb;
+    background-color: #18af90;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+}
+
+.project-link:hover {
+    opacity: .8;
+}
+
+.project-link:active {
+    opacity: .9;
+}
+
+.katex-custom {
+    margin-top: 45px;
+    color: #18af90;
+    font-size: 28px;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid #eee;
+    background-color: lightblue;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
+footer p {
+    width: 179px;
+    margin: 16px auto;
+    color: darkcyan;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
