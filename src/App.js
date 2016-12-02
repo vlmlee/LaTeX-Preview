@@ -39,7 +39,7 @@ class App extends Component {
 
   _example() {
     let textarea = document.getElementById('input');
-    textarea.value = 'a^2 + b^2 = c^2 \\\\\\\\\n\nf(x) = 1 + x + x^2 + \\mathcal{O}(x^3) \\\\\\\\\n\nn\\int_0^1 e^x dx = e - 1 \\\\\\\\\n\n\\int_a^b u \\frac{d^2v}{dx^2} dx = \\left.u \\frac{dv}{dx} \\right|_a^b - \\int_a^b \\frac{du}{dx} \\frac{dv}{dx} dx';
+    textarea.value = 'a^2 + b^2 = c^2 \\\\\\\\\n\nf(x) = 1 + x + x^2 + \\mathcal{O}(x^3) \\\\\\\\\n\n\\int_0^1 e^x dx = e - 1 \\\\\\\\\n\n\\int_a^b u \\frac{d^2v}{dx^2} dx = \\left.u \\frac{dv}{dx} \\right|_a^b - \\int_a^b \\frac{du}{dx} \\frac{dv}{dx} dx';
     window.katex.render('\\begin{matrix}' + textarea.value + '\\end{matrix}', document.getElementById('tex'));
   }
 
