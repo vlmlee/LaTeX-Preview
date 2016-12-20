@@ -4,9 +4,9 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <img src={'texpreview.svg'} className="logo"></img>
+        <img src={'texpreview.svg'} className="logo" alt="logo"></img>
           <a href="https://github.com/vlmlee/LaTeX-Preview" className="project-link">
-        <img src={'github.svg'} className="github"></img>&nbsp;  View Source</a>
+        <img src={'github.svg'} className="github" alt="Link to Github project"></img>&nbsp;  View Source</a>
       </div>
     );
   }

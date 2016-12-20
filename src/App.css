@@ -27,7 +27,7 @@ textarea {
 }
 
 textarea {
-    margin-top: 30px;
+    margin-top: 60px;
     padding: 25px 25px 15px;
 }
 
@@ -43,7 +43,7 @@ pre {
 }
 
 .error {
-    margin-top: 30px;
+    margin-top: -15px;
     color: red;
     text-align: center;
 }
@@ -107,7 +107,7 @@ a {
     background-color: #18af90;
     color: white;
     font-family: 'Montserrat';
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .project-link:hover {
