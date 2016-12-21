@@ -55,7 +55,10 @@ pre {
 
 .github {
     display: inline-block;
-    height: 13px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    right: 6px;
 }
 
 .button-container {
