@@ -1,13 +1,9 @@
 import React from 'react';
 
-class ErrorMessage extends React.Component {
-  render() {
-    return (
-      <div className="error">
-        <span>{this.props.err}</span>
-      </div>
-    );
-  }
-}
+const ErrorMessage = (props) => (
+    <div className="error">
+        <span>{props.err}</span>
+    </div>
+);
 
 export default ErrorMessage;
