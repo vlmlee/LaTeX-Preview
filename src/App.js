@@ -10,7 +10,7 @@ class App extends Component {
     super();
     this.state = { 
       err: '', 
-      info: 'Created by Michael Lee (vlmlee) © 2016'
+      info: 'Created by Michael Lee (vlmlee) © 2017'
     };
     this._update = this._update.bind(this);
     this._example = this._example.bind(this);
